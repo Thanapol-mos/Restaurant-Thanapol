@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant-Thanapol</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Playpen+Sans+Thai:wght@100..800&display=swap"
+        rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme{
+            --font-prompt: 'Prompt', Mali;
+        }
+    </style>
+</head>
+
+<body class="font-prompt bg-[#AA5E7A]">
+    <!-- เขียน Navbar ตรงนี้ -->
+
+    <nav class="bg-[#7C0E44] text-white p-4">
+        <div class="flex justify-between items-center lg:grid-row grid-col">
+            <!-- ชื่อเว็บไซต์ -->
+            <img src="img/22252.jpg" alt="" width="20%"
+                class="block-16 max-w-16 max-h-22 rounded-xl origin-center rotate-7 animate-pulse">
+            <h1 class="text-xl font-bold text-left flex-grow p-4 md:block hidden">KodHiw</h1>
+
+            <!-- รายการเมนู -->
+            <div class="flex gap-6 ">
+                <a href="#Appetizers" class="hover:text-blue-300 transition-2s">ออเดร์ฟ</a>
+                <a href="#Stir-frieds" class="hover:text-blue-300 transition-2s">ประเภทผัด</a>
+                <a href="#Steak" class="hover:text-blue-300 transition-2s">สเต็ก</a>
+                <a href="#Desserts" class="hover:text-blue-300 transition-2s">ของหวาน</a>
+
+            </div>
+        </div>
+    </nav>
+<a id="Appetizers"</a>
+    <h1
+        class="text-2xl font-bold text-center mt-8 lg:text-2xl md:text-xl sm:text-lg pb-3 text-shadow-lg/30 text-[#FEF3E2]">
+        ออเดร์ฟ / ของทานเล่น</h1>
+    <!--md:block hidden = เมื่อขนาดเท่ากับ md ให้ซ่อน-->
+    <!-- div.grid.grid-col.gap-3 -->
+    <!-- alt+shift+f = ปรับย่อหน้าทั้งหมด -->
+    <!-- md:grid-col-2 เมื่อขนาดเท่ากับ md ให้แบ่งเหลือ 2 คอลลัม-->
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-3 "> <!--ปรับ __:grid-cols-_ ตามขนาดของจอ-->
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4 ">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/A-1.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                นักเก็ตไก่
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿30
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/A-2.png" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                เฟรนฟราย
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿25
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/A-3.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                ปีกไก่ทอด
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿30
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/A-4.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                เกี้ยวทอด
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿25
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 ">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/A-5.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                หมูกรอบทอด
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿35
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 ">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+    </div>
+<a id="Stir-frieds"</a>
+    <h1
+        class="text-2xl font-bold text-center mt-8 lg:text-2xl md:text-xl sm:text-lg pb-3 text-shadow-lg/30 text-[#FEF3E2]">
+        ประเภทผัด</h1>
+    <!--md:block hidden = เมื่อขนาดเท่ากับ md ให้ซ่อน-->
+    <!-- div.grid.grid-col.gap-3 -->
+    <!-- alt+shift+f = ปรับย่อหน้าทั้งหมด -->
+    <!-- md:grid-col-2 เมื่อขนาดเท่ากับ md ให้แบ่งเหลือ 2 คอลลัม-->
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-3"> <!--ปรับ __:grid-cols-_ ตามขนาดของจอ-->
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/2.1.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                กะเพราหมูสับ
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿50
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/2.2.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                กะเพราไก่
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿50
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/2.3.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                กะเพราหมูกรอบ
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿60
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/2.4.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                ผัดผักบุ้งไฟแดง
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿45
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 ">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/2.5.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                ข้าวผัด
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿40
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 ">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+    </div>
+<a id="Steak"</a>
+    <h1
+        class="text-2xl font-bold text-center mt-8 lg:text-2xl md:text-xl sm:text-lg pb-3 text-shadow-lg/30 text-[#FEF3E2]">
+        สเต็ก</h1>
+    <!--md:block hidden = เมื่อขนาดเท่ากับ md ให้ซ่อน-->
+    <!-- div.grid.grid-col.gap-3 -->
+    <!-- alt+shift+f = ปรับย่อหน้าทั้งหมด -->
+    <!-- md:grid-col-2 เมื่อขนาดเท่ากับ md ให้แบ่งเหลือ 2 คอลลัม-->
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-3"> <!--ปรับ __:grid-cols-_ ตามขนาดของจอ-->
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/3.1.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                สเต็กเนื้อวัว
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿65
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/3.2.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                สเต็กหมู
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿55
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/3.3.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                สเต็กอกไก่
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿55
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/3.4.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                สเต็กไก่สไปซี่
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿60
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 ">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/3.5.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                สเต็กปลา
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿55
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 ">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+    </div>
+<a id="Desserts"</a>
+    <h1
+        class="text-2xl font-bold text-center mt-8 lg:text-2xl md:text-xl sm:text-lg pb-3 text-shadow-lg/30 text-[#FEF3E2]">
+        ของหวาน</h1>
+    <!--md:block hidden = เมื่อขนาดเท่ากับ md ให้ซ่อน-->
+    <!-- div.grid.grid-col.gap-3 -->
+    <!-- alt+shift+f = ปรับย่อหน้าทั้งหมด -->
+    <!-- md:grid-col-2 เมื่อขนาดเท่ากับ md ให้แบ่งเหลือ 2 คอลลัม-->
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-3"> <!--ปรับ __:grid-cols-_ ตามขนาดของจอ-->
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/4.1.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                ไอติมกะทิ
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿20
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/4.2.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                เฉาก๊วยนมสด
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿25
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/4.3.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                ปาท่องโก๋
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿20
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/4.4.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                คอนเฟลกคาราเมล
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿30
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 ">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+        <div class="bg-[#FFEAD3] rounded-lg shadow-lg p-4 m-4">
+            <div class="bg-white rounded-md p-2 text-center">
+                <img src="img/4.5.jpg" alt="">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">
+                บิงซู
+            </h2>
+
+            <p class="text-blue-600 font-bold mt-3">
+                ฿70
+            </p>
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 ">
+                เพิ่มในรายการ
+            </button>
+        </div>
+
+    </div>
+</body>
+
+</html>
